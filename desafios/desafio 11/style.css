@@ -1,0 +1,27 @@
+@charset "UTF-8"; 
+
+/**{
+    padding: 0px;
+    margin: 0px; 
+}*/
+
+body{
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+}
+
+section{
+    background-color: white;
+}
+
+header{
+    height: 100px;
+    color: white;
+    background-color: black; 
+    text-align: center;
+} 
+
+div.imagem1{
+   background-image: url('imagens/background001.jpg');
+}
