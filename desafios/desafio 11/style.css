@@ -1,27 +1,48 @@
 @charset "UTF-8"; 
 
-/**{
-    padding: 0px;
-    margin: 0px; 
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 body{
     background-color: black;
-    background-image: url('imagens/background001.jpg');
-    background-repeat: no-repeat;
 }
 
-section{
+main{
     background-color: white;
+    font-size: 1.5em;
+    border: 1px solid;
 }
 
 header{
-    height: 100px;
+    height: 200px;
     color: white;
     background-color: black; 
     text-align: center;
-} 
+    font-size: 2em;
+}  
 
-div.imagem1{
-   background-image: url('imagens/background001.jpg');
+p{
+    width: 300px;
+    padding: 30px;
+    margin: 80px;
 }
+
+p#caixa{
+    background-color: hsla(0, 0%, 0%, 0.144);
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    color: white;
+}
+
+#flor{
+    background: url('imagens/background001.jpg') center right no-repeat fixed; 
+    padding: 10px;
+}
+
+#livro{
+    background: url('imagens/background002.jpg') center right no-repeat fixed;
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+} 
