@@ -20,16 +20,29 @@ header{
     font-size: 2em;
 }  
 
-main p{
+main > p{
     width: 300px;
     padding: 30px;
     margin: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 p#caixa{
     background-color: hsla(0, 0%, 0%, 0.144);
     border: 1px solid rgba(0, 0, 0, 0.144);
     color: white;
+    width: 300px;
+    padding: 30px;
+    margin: 80px;
 }
 
 #flor{
@@ -42,7 +55,7 @@ p#caixa{
     padding: 10px;
 }
 
-footer p {
+footer > p {
     color: white;
     text-align: center;
     font-size: large;
