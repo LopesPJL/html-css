@@ -62,11 +62,13 @@ p#caixa{
 #flor{
     background: url('imagens/background001.jpg') center right no-repeat fixed; 
     padding: 10px;
+    background-size: cover;
 }
 
 #livro{
     background: url('imagens/background002.jpg') center right no-repeat fixed;
     padding: 10px;
+    background-size: cover;
 }
 
 footer > p {
