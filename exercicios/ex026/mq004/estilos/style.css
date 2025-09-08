@@ -11,8 +11,8 @@
 }
 
 html{
-    width: vw; 
-    height: vh;
+    width: 100vw; 
+    height: 100vh;
 }
 
 body{
@@ -26,7 +26,6 @@ main{
     width: 90vw;
     margin: auto; 
     border-radius: 10px;
-    padding: 10px; 
 }
 
 h1{
